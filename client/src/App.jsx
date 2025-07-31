@@ -17,7 +17,7 @@ export default App;
 
 import About from './About';
 
-function App() {
+function AboutPage() {
   return (
     <div>
       <h1>Welcome</h1>
