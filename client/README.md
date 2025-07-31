@@ -21,3 +21,5 @@ node server.js
 # Frontend
 cd client
 npm run dev
+
+![Coverage](https://codecov.io/gh/YOUR_USERNAME/YOUR_REPO/branch/main/graph/badge.svg)
