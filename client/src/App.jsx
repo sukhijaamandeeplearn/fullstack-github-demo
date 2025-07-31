@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+import About from './About';
 function App() {
   const [msg, setMsg] = useState('');
 
@@ -9,20 +9,20 @@ function App() {
       .then((data) => setMsg(data.message));
   }, []);
 
-  return <h1>{msg}</h1>;
+  return (
+    
+    <div>
+      <h1>Welcome</h1>
+      <h1>{msg}</h1>
+      <About />
+    </div>
+  );
 }
 
 export default App;
 
 
-import About from './About';
 
-function AboutPage() {
-  return (
-    <div>
-      <h1>Welcome</h1>
-      <About />
-    </div>
-  );
-}
+
+
 
