@@ -1,0 +1,39 @@
+name: Dev CI
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Frontend: Install & Build
+      - name: Install frontend dependencies
+        working-directory: ./client
+        run: npm install
+
+      - name: Build frontend (Vite)
+        working-directory: ./client
+        run: npm run build
+
+      # Backend: Install dependencies
+      - name: Install backend dependencies
+        working-directory: ./server
+        run: npm install
+
+      # Backend: Simulate backend test/build (with no change commit)
+      - name: Simulate backend build
+        working-directory: ./server
+        run: echo "✅ Backend setup complete"
