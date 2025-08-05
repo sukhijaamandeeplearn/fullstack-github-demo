@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import About from './About';
+// Visual Studio edit test
 function App() {
   const [msg, setMsg] = useState('');
 
