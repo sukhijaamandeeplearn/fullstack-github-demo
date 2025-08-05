@@ -122,9 +122,19 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
+# Ignore Visual Studio cache and temp files
 .vs/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+*.pdb
+
+# Ignore GitHub Copilot indices and cache files
+GitwithVS/CopilotIndices/
+GitwithVS/v17/*.wsuo
+GitwithVS/v17/DocumentLayout.json
+
 
 # yarn v3
 .pnp.*
