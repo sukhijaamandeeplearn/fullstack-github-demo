@@ -125,6 +125,15 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 .vs/
+slnx.sqlite
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+slnx.sqlite
+
 
 # yarn v3
 .pnp.*
