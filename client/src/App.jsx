@@ -6,7 +6,8 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3001/api/hello')
       .then((res) => res.json())
-      .then((data) => setMsg(data.message));
+      //.then((data) => setMsg(data.message));
+        .then((data) => setMsg("Change B from line-b"));
   }, []);
 
   return (
