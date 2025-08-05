@@ -15,7 +15,9 @@ function App() {
     
     <div>
       <h1>Welcome</h1>
-      <h1>{msg}</h1>
+          <h1>{msg}</h1>
+          <p>This is the About page feature.</p>
+
       <About />
     </div>
   );
