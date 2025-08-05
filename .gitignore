@@ -147,3 +147,8 @@ slnx.sqlite
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/CodeChunks.db-shm
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/CodeChunks.db-wal
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/SemanticSymbols.db-shm
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/SemanticSymbols.db-wal
+/.vs/slnx.sqlite
