@@ -125,6 +125,7 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 .vs/
+
 slnx.sqlite
 .vs/
 *.user
@@ -133,6 +134,7 @@ slnx.sqlite
 *.VC.db
 *.VC.VC.opendb
 slnx.sqlite
+
 
 
 # yarn v3
