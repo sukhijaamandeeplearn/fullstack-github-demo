@@ -122,7 +122,6 @@ dist
 # TernJS port file
 .tern-port
 
-
 # Ignore Visual Studio cache and temp files
 .vs/
 *.suo
@@ -147,6 +146,7 @@ slnx.sqlite
 *.VC.db
 *.VC.VC.opendb
 slnx.sqlite
+
 
 
 
