@@ -122,6 +122,7 @@ dist
 # TernJS port file
 .tern-port
 
+
 # Ignore Visual Studio cache and temp files
 .vs/
 *.suo
@@ -134,6 +135,20 @@ dist
 GitwithVS/CopilotIndices/
 GitwithVS/v17/*.wsuo
 GitwithVS/v17/DocumentLayout.json
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+.vs/
+slnx.sqlite
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+slnx.sqlite
+
+
 
 
 # yarn v3
@@ -148,3 +163,9 @@ GitwithVS/v17/DocumentLayout.json
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/CodeChunks.db-shm
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/CodeChunks.db-wal
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/SemanticSymbols.db-shm
+/.vs/GitwithVS/CopilotIndices/17.14.734.62261/SemanticSymbols.db-wal
+/.vs/slnx.sqlite
+.vs/
