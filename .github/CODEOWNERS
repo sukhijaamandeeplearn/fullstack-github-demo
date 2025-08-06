@@ -1,0 +1,12 @@
+# Require devUser to review anything under /client
+/client/ @email2amandeep89
+
+# Require testerUser to approve anything in test branch
+/test/ @sukhijaamandeep
+
+# Require approvals from both architectUser and securityLeadUser on main branch
+/main/ @sukhijaamandeep @sukhijaamandeeplearn
+
+
+
+
